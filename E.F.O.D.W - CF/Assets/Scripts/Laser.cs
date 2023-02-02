@@ -52,7 +52,7 @@ public class Laser : MonoBehaviour
             {
                 playerDeath = true;
                 OnHitPlayer.Invoke();
-                //game.PlayerHit();
+                game.PlayerHit();
             }
         }
 
