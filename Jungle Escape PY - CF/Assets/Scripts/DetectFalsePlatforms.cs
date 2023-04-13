@@ -18,9 +18,9 @@ public class DetectFalsePlatforms : MonoBehaviour
             Debug.LogWarning("Be Careful!");
         }
 
-        if (!hit)
+        else if (!hit)
         {
-            Debug.Log("All Clear");
+            Debug.LogWarning("All Clear");
         }
     }
 }
